@@ -1,0 +1,44 @@
+/* hero Banner image */
+.image-text-content h1{
+    font-size: 24px;
+}
+.image-text-content h4{
+    font-size: 22px;
+}
+.image-text-content p{
+    font-size: 11px;
+}
+.button-area{
+    flex-direction: column;
+}
+
+@media (min-width:768px){
+    .button-area{
+        flex-direction: row;
+    }
+}
+@media (min-width:992px){
+     .image-text-content{
+        background-color: transparent;
+        text-align: left!important;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+      
+     }
+     .image-text-content p{
+        font-size: 16px;
+    }
+   .button-area a{
+       width: auto;
+   }
+   .button-area{
+    flex-direction: row;
+  }
+}
+@media (min-width:1200px){
+    .image-text-content{
+        right: 35%;
+     }
+}

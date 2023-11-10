@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?j58ixs');
+  src:  url('../fonts/icomoon.eot?j58ixs#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?j58ixs') format('truetype'),
+    url('../fonts/icomoon.woff?j58ixs') format('woff'),
+    url('../fonts/icomoon.svg?j58ixs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Icon-feather-minus:before {
+  content: "\e904";
+}
+.icon-Icon-feather-plus:before {
+  content: "\e905";
+}
+.icon-down_arrow:before {
+  content: "\e900";
+}
+.icon-Icon-ionic-md-checkmark-circle-outline:before {
+  content: "\e901";
+  color: #8ab76e;
+}
+.icon-up_arrow:before {
+  content: "\e902";
+}
+.icon-information-i:before {
+  content: "\e903";
+}
+.icon-User:before {
+  content: "\e90a";
+}
+.icon-star_icon1:before {
+  content: "\e90b";
+}
+.icon-Icon-awesome-facebook-f1:before {
+  content: "\e90c";
+}
+.icon-Icon-awesome-google-plus-g1:before {
+  content: "\e90d";
+}
+.icon-Icon-awesome-instagram1:before {
+  content: "\e90e";
+}
+.icon-Icon-awesome-pinterest-p1:before {
+  content: "\e90f";
+}
+.icon-Icon-awesome-twitter1:before {
+  content: "\e910";
+}
+.icon-Icon-awesome-youtube1:before {
+  content: "\e911";
+}
+.icon-Path-551:before {
+  content: "\e912";
+}
+.icon-Path-1531:before {
+  content: "\e913";
+}
+.icon-Path-1541:before {
+  content: "\e914";
+}

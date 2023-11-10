@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+  <g id="veteran_icon" data-name="veteran icon" transform="translate(-27 -7.183)">
+    <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(27 15.989) rotate(-20)" fill="none" stroke="#1f3951" stroke-width="1.75" stroke-dasharray="10 2">
+      <circle cx="12.873" cy="12.873" r="12.873" stroke="none"/>
+      <circle cx="12.873" cy="12.873" r="11.998" fill="none"/>
+    </g>
+    <path id="Icon_ionic-md-star" data-name="Icon ionic-md-star" d="M11.038,15.566l4.475,2.7-1.184-5.093,3.95-3.424L13.072,9.3,11.038,4.5,9,9.3,3.8,9.748l3.95,3.424L6.563,18.266Z" transform="translate(32.462 11.841)" fill="#d12727"/>
+  </g>
+</svg>

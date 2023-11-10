@@ -1,0 +1,23 @@
+.detail-area{
+    margin-top: 20px;
+}
+.detail-area .row{
+    row-gap: 35px;
+}
+.detail-area .col-12 .d-flex{
+    flex-direction: column;
+}
+.detail-area img{
+    max-width: 30px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width:992px){
+    .detail-area .col-lg-3 .d-flex{
+        flex-direction: row;
+    }
+    .detail-area img{
+        margin: 0;
+    }
+}

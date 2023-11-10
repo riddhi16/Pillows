@@ -1,0 +1,13 @@
+
+.img-area{
+    min-height: 62px;
+}
+.here-to-help .d-flex{
+    flex-direction: column;
+}
+
+/* @media screen and (min-width: 992px) {
+.m--0{
+    margin: 0 !important;
+}
+} */

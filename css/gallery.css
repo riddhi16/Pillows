@@ -1,0 +1,26 @@
+.gallery{
+    margin-bottom:101px;
+}
+.gallery .position-absolute{
+    top: 10px;
+    left: 22px;
+}
+.gallery .row{
+    row-gap: 15px;
+}
+@media screen and (min-width:768px) {
+    .gallery .row{
+        row-gap: 0;
+    }
+}
+.gallery_warp {
+    overflow:hidden;
+}
+.gallery img{
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+}
+.gallery img:hover{
+    transform: scale(1.05);
+    width: 100%;
+}

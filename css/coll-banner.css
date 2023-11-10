@@ -1,0 +1,38 @@
+.collection-banner{
+    height: 300px;
+}
+.collection-product-area{
+    row-gap: 54px;
+}
+.collection-content-area .accordion-body ul li:not(:last-child){
+    padding-bottom: 22px !important; 
+}
+.badge{
+    top:9px;
+    left:9px;
+    position: absolute;
+    z-index:10;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.button-radius{
+    border-radius: 0% !important;
+}
+.collection-product-area .card-body{
+    padding:0;
+}
+.filter-drawer span{
+    font-size: 20px;
+}
+/* js */
+
+.filter-drawer,.sort-drawer{
+    background-color: #ffffff;
+    position: fixed; 
+    left:0;
+    width: 100%;
+    top:-100%;
+    z-index: 9999;
+    transition:ease-in-out 0.8s;
+}

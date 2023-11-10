@@ -1,0 +1,12 @@
+.Image-w-text{
+    margin: 78px 0px 100px 0px;
+}
+.text_wrap {
+    min-height: 100% !important;
+}
+
+ @media (min-width:992px){
+    .Image-w-text .text-center{
+       text-align: left!important;
+    }
+}

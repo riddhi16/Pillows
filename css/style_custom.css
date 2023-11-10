@@ -1,0 +1,250 @@
+.fs-12{
+    font-size: 12px!important;
+  }
+  .fs-13{
+      font-size: 13px !important;
+  }
+@media (min-width: 577px){
+.announcementbar .fs-12{
+    font-size: 14px;
+    } 
+}
+.main-nav > li:not(:first-child) {
+    padding-left:20px;
+}
+.main-nav > li {
+    padding-left:56px;
+}
+.main-nav a{
+    cursor:pointer;
+}
+.icon-nav > li:not(:last-child) {
+    padding-right:27px;
+}
+.icon-nav img{
+    height: 25px;
+    width: 25px;
+}
+@media (min-width: 1400px){
+    .main-nav > li:not(:first-child) {
+        padding-left:45px;
+    }
+    .main-nav > li {
+        padding-left:56px;
+    }
+    .icon-nav > li:not(:last-child) {
+        padding-right:27px;
+    }
+}
+/* Pillow finder */
+.pillow{
+    padding-bottom: 12px;
+    top: 12px;
+    left: 11px;
+    text-align: center;
+    display: inline-block;
+    height: 8px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}    
+/* quantity area */
+.quantity {
+    padding-bottom: 12px;
+    top: -4px;
+    left: 11px;
+    text-align: center;
+    background-color: #FFDD99;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #FFDD99;
+    border-radius: 50%; 
+}  
+.fs-11{
+    font-size:11px;
+    font-family: 'Be Vietnam';
+}
+.mobile-nav .mobile_icon{
+    height: 26px;
+    width: 21px;
+}
+.mobile-logo img{
+    max-width: 90px;
+}
+@media (min-width:577px){
+    .mobile-nav .mobile_icon{
+        height: 52px;
+        width: 42px;
+    }
+    .mobile-logo img{
+        max-width: 168px;
+    }
+    .quantity {
+        padding-top: 3px;
+        top: 19px;
+        left:25px;
+        width: 18px;
+        height: 18px;
+    }  
+}
+@media (min-width:992px){ 
+    .quantity {
+        padding-top: 3px;
+        top: 5px;
+    }  
+}
+@media (min-width:1200px){ 
+    .quantity {
+        padding-top: 3px;
+        top: 18px;
+        left: 23px;
+    }  
+}
+/* mobile view navigation */
+.mobile-nav-left ul li:not(:last-child){
+    padding-right: 28px;
+}
+.mobile-nav-right ul li:not(:last-child){
+    padding-right: 16px;
+}
+
+/* Accordian CSS */
+.accordian_mobile{
+    width: 400px;
+}
+
+/* drawer */
+.accordian_mobile {
+    background-color: #ffffff;
+    position: fixed; 
+    top:0%;
+    left:-200%;
+    width: 250px;
+    bottom: 0;
+    z-index: 9999;
+    font-weight: 500;
+    transition:ease-in-out 0.8s;
+  
+}
+.accordian_mobile img{
+    max-width: 90px;
+}
+.accordion-header{
+    border-top:1px solid #CACDD1 ;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-15{
+    font-size: 15px;
+}
+/* megamenu one */
+.columns3{
+    columns:3;
+    height: 500px;
+}
+.mega_menu_one , .mega_menu_two{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left:0;
+    width: 100%;
+}
+.main-nav > li:hover .mega_menu_one , .main-nav li:nth-child(2):hover .mega_menu_two{
+    visibility: visible;
+    opacity: 1;
+    z-index: 9999;
+    background-color: #fff!important;
+}
+/* megamenu two */
+.mega_menu_two h5{
+    width: 100% !important;
+    min-height: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} 
+
+.navigation > ul > li a{
+    position: relative;
+}
+
+.navigation > ul > li a:not(.blue-wave,.sale-link):before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#406C93;
+    visibility: hidden;
+    transition:width 0.25s ease-in-out;
+    z-index: 9;
+}
+.navigation > ul > li > a:hover::before{
+    visibility: visible;
+    width: 100%;
+} 
+.bedding-text-area p{
+    line-height: 0;
+}
+.bedding-text-area a{
+ text-underline-offset: 3px;
+}
+.overlay {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 1200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9999;
+    cursor: pointer;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+.search-text-area{
+    display: block;
+    width: 100%;
+    border:transparent;
+    background-color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+/* search bar  */
+.search-area input::placeholder{
+    font-size: 17px;
+    color: #1F3951;
+    line-height: 22px;
+    font-family: 'DM Sans';
+}
+.search-area input:focus{
+    outline: none;
+}
+.icon-User{
+    cursor: pointer;
+}
+.search-modal {
+    background-color: #ffffff;
+    position: fixed; 
+    top:0%;
+    top:-200%;
+    width:100%;
+    z-index: 9999;
+    font-weight: 500;
+    transition:ease-in-out 0.8s;
+}
+
